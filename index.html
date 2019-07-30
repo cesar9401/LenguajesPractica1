@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica 1</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+
+    <table class="tabla">
+        <tr>
+            <td colspan="3">
+                <h1>Tipo de String</h1>
+                <p1>Ingrese una cadena para determinar si es identificador, número o símbolo</p1>
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                String:
+                <input type="text" id="string">
+            </td>
+            <td rowspan="2"> 
+                    <h2>HISTORIAL</h2>
+                    <u1>
+                        <div id="historial">
+
+                        </div>
+                    </u1>                
+            </td>
+            <td rowspan="2">
+                    <h2>ERROR</h2>
+                    <u1>
+                        <div id="error">
+
+                        </div>
+                    </u1>
+            </td>
+        </tr>
+        <tr>
+            <td>    
+            <button id="boton" onclick="analizarString()">Analizar</button>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="type.js"></script>
+</body>
+</html>

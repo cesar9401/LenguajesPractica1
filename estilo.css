@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+}
+
+table {        
+    position: center;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: blue 10px inset;      
+}
+#boton {    
+    background: transparent;
+    border: blue 3px solid;
+    border-radius: 4px;
+}
+
+#boton:hover {
+        background-color: blue;
+        color: lightblue;
+
+}
+
+#historial {
+    overflow: auto;
+    width: 200px;
+    height: 100px;    
+}
+
+#error {
+    overflow: auto;
+    width: 200px;
+    height: 100px;    
+}
+
+h1{
+    font-size: 40 px;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40 px;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+input{
+    width: 70%;
+}
